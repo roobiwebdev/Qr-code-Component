@@ -12,45 +12,46 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.container {
-  width: 100vw;
+.card-main {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 2em;
 }
 
-.content {
-  width: 23em;
-  height: 32em;
+.card {
+  width: 22em;
+  height: auto;
+
   background: #fff;
   border-radius: 20px;
 }
 
-.content .img {
+img {
   margin: 0 auto;
-  width: 90%;
-  height: 55%;
-  margin-top: 1em;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
-  background: url(images/image-qr-code.png);
   background-position: center;
   background-size: cover;
+  padding: 1em 1.3em;
 }
 
-.messages {
+.card-discription {
   width: 90%;
+  padding: 0.725em;
   padding: 0.725em;
   margin: 0 auto;
   text-align: center;
 }
 
-.messages h2 {
-  margin-bottom: 0.8em;
+.card-title {
   color: #1f3251;
+  margin-bottom: 0.8em;
 }
 
-.messages p {
+.discription {
   font-size: 1rem;
   text-align: center;
   line-height: 25px;
@@ -66,22 +67,19 @@ body {
   text-decoration: none;
 }
 
-@media screen and (width <= 30.5em) {
-  .content {
-    width: 90%;
-    height: 70%;
-    margin: 0 1em;
+@media screen and (width <= 355px) {
+  .card {
+    height: auto;
   }
 
-  .messages h2 {
+  .card-title {
     margin-bottom: 0.4em;
   }
 
-  .messages p {
+  .discription {
     font-size: 1rem;
     text-align: center;
     line-height: 20px;
-    color: #97999e;
   }
 
   .foot {
