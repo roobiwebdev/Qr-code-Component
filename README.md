@@ -5,7 +5,7 @@
 
 # Links
 
-* Solution URL:  [Link]([https://github.com/roobiwebdev/Qr-code-Component](https://github.com/roobiwebdev/Qr-code-Component/blob/main/index.html))
+* Solution URL: [Link](https://github.com/roobiwebdev/Qr-code-Component/blob/main/index.html)
 * Live Site URL: [Link](https://roobiwebdev.github.io/Qr-code-Component/) 
 
 
